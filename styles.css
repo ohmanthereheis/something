@@ -6,6 +6,9 @@ body {
 }
 
 .navbar {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 1em;
+  font-weight: bold;
   color: black;
   background-color: white;
   border: 3px solid black;
@@ -13,10 +16,7 @@ body {
 }
 
 .navbar li {
+  padding: 50px;
   display: inline;
   text-align: right;
-}
-
-.home li {
-  display: inline;
 }
