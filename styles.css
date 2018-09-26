@@ -20,3 +20,7 @@ body {
   display: inline;
   text-align: right;
 }
+
+.jumbotron img {
+    background-size: cover
+}
