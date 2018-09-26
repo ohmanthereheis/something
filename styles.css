@@ -16,3 +16,7 @@ body {
   display: inline;
   text-align: right;
 }
+
+.home li {
+  display: inline;
+}
