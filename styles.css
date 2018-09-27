@@ -18,7 +18,7 @@ body {
 .navbar li {
   padding: 50px;
   display: inline;
-  text-align: right;
+  text-align: center;
 }
 
 .jumbotron img {
