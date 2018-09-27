@@ -22,5 +22,6 @@ body {
 }
 
 .jumbotron img {
-    background-size: cover
+  margin-left: auto;
+  margin-right: auto;
 }
