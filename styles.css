@@ -1,6 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  background-image: url(./images/nature-1426548442ySW.jpG);
+  background-color: #825f32;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 1em;
   font-weight: bold;
   color: black;
-  background-color: white;
+  background-color: #efa834;
   border: 3px solid black;
   opacity: 0.8;
 }
