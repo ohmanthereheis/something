@@ -28,3 +28,17 @@ body {
   margin-right: auto;
   width: 90%;
 }
+
+.entry {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  background-color: #efa834;
+  border: 3px solid black;
+  opacity: 0.8;
+}
+
+.entry h1 {
+  text-align: center;
+}
