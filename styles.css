@@ -22,5 +22,9 @@ body {
 }
 
 .jumbotron img {
-  align-content: center;
+  padding: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
