@@ -1,22 +1,28 @@
 body {
-  font-family: "Courier New", Courier, monospace;
-  background-color: #825f32;
+  font-family: 'Raleway', sans-serif;
+  background-color: #ff9e49;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff
+}
+
 .navbar {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 1em;
+  border-radius: 6px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
   font-weight: bold;
-  color: black;
-  background-color: #efa834;
+  color: white;
+  background-color: #a81e39;
   border: 3px solid black;
   opacity: 0.8;
 }
 
 .navbar li {
-  padding: 50px;
+  padding: 30px;
   display: inline;
   text-align: center;
 }
@@ -30,11 +36,12 @@ body {
 }
 
 .entry {
-  font-family: "Lucida Console", Monaco, monospace;
+  border-radius: 6px;
+  font-family: 'Raleway', sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color: black;
-  background-color: #efa834;
+  color: white;
+  background-color: #a81e39;
   border: 3px solid black;
   opacity: 0.8;
 }
