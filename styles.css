@@ -60,3 +60,10 @@ footer {
   margin: 30px;
   float: right;
 }
+
+.grid-item {
+  border: 1px solid black;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
