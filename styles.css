@@ -105,7 +105,7 @@ footer {
 .grid-item:active, .grid-itemng:active {
   cursor: pointer;
   color: black;
-  background-color: #f26b4d;
+  background-color: black;
   transform: translateY(4px);
 }
 
@@ -147,8 +147,9 @@ footer {
 }
 
 .dropdown-content {
+    text-align: center;
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
