@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #ff9e49;
+  background-image: linear-gradient(#b2708d, #f26b4d, #e88e20, #e2a04f);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -24,6 +24,9 @@ a:active {
 }
 
 .navbar {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
   border-radius: 6px;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
@@ -49,8 +52,7 @@ a:active {
 }
 
 .entry {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px 20px 30px 20px;
   border-radius: 6px;
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
@@ -71,11 +73,13 @@ footer {
 }
 
 .products {
+  margin-left: 20px;
+  margin-right: 20px;
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 8px 8px;
+  grid-gap: 30px 30px;
 }
 
 .grid-item {
@@ -101,16 +105,18 @@ footer {
 .grid-item:active, .grid-itemng:active {
   cursor: pointer;
   color: black;
-  background-color: #ab4a17;
+  background-color: #f26b4d;
   transform: translateY(4px);
 }
 
 .newgarden {
+  margin-left: 20px;
+  margin-right: 20px;
   display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 8px 8px;
+  grid-gap: 30px 30px;
 }
 
 .grid-itemng {
@@ -125,3 +131,30 @@ footer {
     border: 3px solid black;
     opacity: 0.8;
   }
+
+  .services {
+    text-align: center;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1px 1px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
