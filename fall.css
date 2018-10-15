@@ -141,6 +141,15 @@ footer {
     grid-gap: 1px 1px;
   }
 
+  .whats {
+    text-align: center;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 1px 1px;
+  }
+
   .dropdown {
     margin: 30px 20px 30px 20px;
     text-align: center;
