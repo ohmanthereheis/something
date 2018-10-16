@@ -92,7 +92,6 @@ footer {
   color: white;
   background-color: #53571a;
   border: 3px solid black;
-  opacity: 0.8;
 }
 
 .grid-item:hover, .grid-itemng:hover {
@@ -141,6 +140,8 @@ footer {
     grid-gap: 1px 1px;
   }
 
+/*whats new*/
+
   .whats {
     text-align: center;
     display: grid;
@@ -150,10 +151,15 @@ footer {
     grid-gap: 1px 1px;
   }
 
+  .whats img {
+    max-width: 90%;
+    padding-bottom: 20px;
+  }
+
   .dropdown {
     margin: 30px 20px 30px 20px;
     text-align: center;
-    padding: 75px;
+    padding: 40px;
     border-radius: 6px;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -161,20 +167,18 @@ footer {
     color: white;
     background-color: #53571a;
     border: 3px solid black;
-    opacity: 0.8;
 }
 
 .dropdown-content {
     border-radius: 10px;
     border: 3px solid black;
-    margin-top: 75px;
+    margin-top: 40px;
     text-align: center;
     display: none;
     position: fixed;
     color: #474747;
     background-color: #f9f9f9;
     min-width: 160px;
-    padding: 12px 16px;
     z-index: 1;
 }
 
