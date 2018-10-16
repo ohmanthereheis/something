@@ -159,7 +159,7 @@ footer {
   .dropdown {
     margin: 30px 20px 30px 20px;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
     border-radius: 6px;
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
@@ -169,10 +169,17 @@ footer {
     border: 3px solid black;
 }
 
+.dropdown:hover {
+  transition-duration: 0.2s;
+  cursor: pointer;
+  color: black;
+  background-color: #3e5719;
+}
+
 .dropdown-content {
     border-radius: 10px;
     border: 3px solid black;
-    margin-top: 40px;
+    margin-top: 16px;
     text-align: center;
     display: none;
     position: fixed;
@@ -191,4 +198,9 @@ footer {
   color: black;
   transition-duration: 0.2s;
   cursor: pointer;
+}
+
+.dropdown-content, p:active {
+  cursor: pointer;
+  transform: translateY(4px);
 }
