@@ -7,6 +7,22 @@ header {
   color: #09354c;
   background-color: #92c3dd;
   border: 3px solid #424242;
+  opacity: 0.9;
+}
+
+header:hover {
+  opacity: 1;
+  transition-duration: 0.2s;
+}
+
+header p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+header p:active {
+  transition-duration: 0.1s;
+  transform: translateY(2px);
 }
 
 .something {
