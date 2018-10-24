@@ -25,6 +25,23 @@ header p:active {
   transform: translateY(2px);
 }
 
+a {
+  color: #09354c;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+a:active {
+  text-decoration: none;
+  color: grey;
+  transition-duration: 0.2s;
+  transform: translateY(4px);
+
 .something {
   float: right;
 }
