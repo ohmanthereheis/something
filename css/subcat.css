@@ -41,6 +41,7 @@ a:active {
   color: grey;
   transition-duration: 0.2s;
   transform: translateY(4px);
+}
 
 .something {
   float: right;
