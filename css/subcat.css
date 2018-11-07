@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
 header{
   position: fixed;
   font-size: 20px;
