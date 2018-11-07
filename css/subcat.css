@@ -17,11 +17,6 @@ header .top {
   padding-top: 0px;
 }
 
-header:hover {
-  opacity: 1;
-  transition-duration: 0.2s;
-}
-
 header p:hover {
   color: white;
   cursor: pointer;
