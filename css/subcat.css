@@ -1,4 +1,4 @@
-header {
+header{
   position: fixed;
   font-size: 20px;
   font-weight: bold;
@@ -8,6 +8,10 @@ header {
   background-color: #92c3dd;
   border: 3px solid #424242;
   opacity: 0.9;
+}
+
+header .top {
+  padding-top: 0px;
 }
 
 header:hover {
