@@ -5,16 +5,12 @@ header{
   position: fixed;
   font-size: 20px;
   font-weight: bold;
-  padding: 80px 10px 80px 10px;
+  padding: 80px 20px 80px 20px;
   border: 40px;
   color: #09354c;
   background-color: #92c3dd;
   border: 3px solid #424242;
   opacity: 0.9;
-}
-
-header .top {
-  padding-top: 0px;
 }
 
 header p:hover {
