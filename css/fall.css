@@ -63,6 +63,17 @@ a:active {
   opacity: 0.8;
 }
 
+.entry2 {
+  margin: 30px 20px 30px 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  color: white;
+  background-color: #aa5c6b;
+  border: 3px solid black;
+  opacity: 0.8;
+  text-align: center;
+}
+
 .entry h1 {
   text-align: center;
 }
