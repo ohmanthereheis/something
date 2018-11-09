@@ -64,12 +64,12 @@ a:active {
 }
 
 .entry2 {
-  margin: 30px 20px 30px 20px;
+  margin: 50px 50px 50px 50px;
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   color: white;
   background-color: #aa5c6b;
-  border: 3px solid black;
+  border: 2px solid black;
   opacity: 0.8;
   text-align: center;
 }
@@ -210,7 +210,7 @@ footer {
   cursor: pointer;
 }
 
-.dropdown-content, p:active {
+.dropdown-content p:active {
   cursor: pointer;
   transform: translateY(4px);
 }
