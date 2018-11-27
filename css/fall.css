@@ -38,7 +38,7 @@ a:active {
 }
 
 .navbar li {
-  padding: 30px;
+  padding: 80px;
   display: inline;
   text-align: center;
 }
@@ -64,7 +64,7 @@ a:active {
 }
 
 .entry2 {
-  margin: 50px 50px 50px 50px;
+  margin: 50px;
   font-family: 'Raleway', sans-serif;
   font-size: 1em;
   color: white;
